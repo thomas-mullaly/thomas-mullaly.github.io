@@ -1,0 +1,53 @@
+baseURL = 'https://thomasmullaly.codes/'
+languageCode = 'en-us'
+title = 'thomasmullaly.codes'
+theme = 'terminal'
+
+[Params]
+  centerTheme = true
+  themeColor = "green"
+
+[pagination]
+  pagerSize = 5
+
+[permalinks]
+  post = "/:year/:month/:day/:title/"
+
+[Taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "thomasmullaly.codes"
+
+    [languages.en.params]
+      subtitle = "Software Engineer"
+      owner = ""
+      keywords = ""
+      copyright = ""
+      menuMore = "Show more"
+      readMore = "Read more"
+      readOtherPosts = "Read other posts"
+      newerPosts = "Newer posts"
+      olderPosts = "Older posts"
+      missingContentMessage = "Page not found..."
+      missingBackButtonLabel = "Back to home page"
+      minuteReadingTime = "min read"
+      words = "words"
+
+      [languages.en.params.logo]
+        logoText = "thomasmullaly.codes"
+        logoHomeLink = "/"
+
+      [languages.en.menu]
+        [[languages.en.menu.main]]
+          identifier = "posts"
+          name = "Posts"
+          url = "/posts"
+
+        [[languages.en.menu.main]]
+          identifier = "about"
+          name = "About"
+          url = "/pages/about-me"
